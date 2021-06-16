@@ -650,7 +650,7 @@ namespace Ciribob.DCS.SimpleRadio.Standalone.Client.UI
 
             ShowTransmitterName.IsChecked = _globalSettings.GetClientSettingBool(GlobalSettingsKeys.ShowTransmitterName);
 
-            var objValue = Registry.GetValue("HKEY_CURRENT_USER\\SOFTWARE\\DCS-SR-Standalone", "SRSAnalyticsOptOut", "FALSE");
+            var objValue = Registry.GetValue("HKEY_CURRENT_USER\\SOFTWARE\\DCS-SR-Standalone", "SRSAnalyticsOptOut", "TRUE");
             if(objValue == null || (string) objValue == "TRUE")
             {
                 AllowAnonymousUsage.IsChecked = false;
