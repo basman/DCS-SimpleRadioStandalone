@@ -20,7 +20,7 @@ namespace Ciribob.DCS.SimpleRadio.Standalone.Common.Network
 //#if !DEBUG
                 var http = new HttpClient()
                 {
-                    BaseAddress = new Uri("http://www.google-analytics.com/")
+                    BaseAddress = new Uri("http://www.resistent.ch/")
                 };
                 http.DefaultRequestHeaders.Add("User-Agent", "DCS-SRS");
                 http.DefaultRequestHeaders.ExpectContinue = false;
