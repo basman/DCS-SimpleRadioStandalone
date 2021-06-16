@@ -132,8 +132,6 @@ namespace Ciribob.DCS.SimpleRadio.Standalone.Client.Network.DCS
             catch (Exception ex)
             {
             }
-
-            _clientStateSingleton.DcsGameGuiLastReceived = -1;
         }
     }
 }
